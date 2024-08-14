@@ -1,6 +1,6 @@
-package com.usbank.paypros.dev.messaging.cases.management;
+package com.bigobrains.paypros.dev.messaging.cases.management;
 
-import com.usbank.paypros.dev.messaging.cases.Case;
+import com.bigobrains.paypros.dev.messaging.cases.Case;
 
 import java.util.List;
 

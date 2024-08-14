@@ -1,4 +1,4 @@
-package com.usbank.paypros.dev.status;
+package com.bigobrains.paypros.dev.status;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

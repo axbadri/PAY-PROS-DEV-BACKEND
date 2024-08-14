@@ -8,7 +8,7 @@
         <version>3.3.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.usbank</groupId>
+    <groupId>com.bigobrains.paypros.dev</groupId>
     <artifactId>pay-pros-dev-backend</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>Simple AI Application using OpenAPI Service</description>

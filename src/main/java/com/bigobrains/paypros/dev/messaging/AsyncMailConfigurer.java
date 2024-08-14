@@ -1,4 +1,4 @@
-package com.usbank.paypros.dev.messaging;
+package com.bigobrains.paypros.dev.messaging;
 
 import jakarta.mail.Authenticator;
 import jakarta.mail.PasswordAuthentication;

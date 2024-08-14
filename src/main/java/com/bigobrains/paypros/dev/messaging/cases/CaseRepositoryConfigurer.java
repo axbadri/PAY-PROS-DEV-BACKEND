@@ -1,7 +1,7 @@
-package com.usbank.paypros.dev.messaging.cases;
+package com.bigobrains.paypros.dev.messaging.cases;
 
-import com.usbank.paypros.dev.messaging.cases.management.CaseRepository;
-import com.usbank.paypros.dev.messaging.cases.management.InMemoryCaseRepository;
+import com.bigobrains.paypros.dev.messaging.cases.management.InMemoryCaseRepository;
+import com.bigobrains.paypros.dev.messaging.cases.management.CaseRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

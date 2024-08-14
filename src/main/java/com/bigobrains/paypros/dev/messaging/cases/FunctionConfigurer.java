@@ -1,4 +1,4 @@
-package com.usbank.paypros.dev.messaging.cases;
+package com.bigobrains.paypros.dev.messaging.cases;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

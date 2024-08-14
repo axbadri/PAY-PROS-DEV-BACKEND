@@ -1,8 +1,8 @@
-package com.usbank.paypros.dev.messaging;
+package com.bigobrains.paypros.dev.messaging;
 
-import com.usbank.paypros.dev.messaging.cases.Case;
-import com.usbank.paypros.dev.messaging.cases.management.CaseManager;
-import com.usbank.paypros.dev.messaging.cases.management.CaseRepository;
+import com.bigobrains.paypros.dev.messaging.cases.Case;
+import com.bigobrains.paypros.dev.messaging.cases.management.CaseManager;
+import com.bigobrains.paypros.dev.messaging.cases.management.CaseRepository;
 import jakarta.mail.internet.MimeMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

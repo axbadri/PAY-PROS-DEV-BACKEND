@@ -1,6 +1,6 @@
-package com.usbank.paypros.dev.messaging.cases;
+package com.bigobrains.paypros.dev.messaging.cases;
 
-import com.usbank.paypros.dev.messaging.cases.management.CaseRepository;
+import com.bigobrains.paypros.dev.messaging.cases.management.CaseRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
