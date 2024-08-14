@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d59a185f-ccb0-40ef-9695-874bfc8cff10" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/BackendAPPDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/BackendAPPDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/AsyncMailConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/AsyncMailConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/CaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/CaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/CaseRepositoryConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/CaseRepositoryConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/FunctionConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/FunctionConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/management/CaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/management/CaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/management/CaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/management/CaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/management/InMemoryCaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/management/InMemoryCaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/messaging/cases/management/MailServiceBasedCaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/messaging/cases/management/MailServiceBasedCaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usbank/paypros/dev/status/StatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigobrains/paypros/dev/status/StatusController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2kWLhxdznI5I7c9NObhYq5vcn4M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BackendAPPDev.executor": "Run",
+    "Application.GenAIBackendApp.executor": "Run",
+    "Application.com.usbank.paypros.dev.GenAIBackendApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/thand/OneDrive/PAY-PROS-DEV-BACKEND",
+    "onboarding.tips.debug.path": "C:/Users/thand/Devworx/PAYMENTS-GENAI-HACKATHON/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thand\Devworx\PAYMENTS-GENAI-HACKATHON-PAY-PROS-BACKEND\src\main\java\com\usbank\payments\genai\hackathon\paypros\jokes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.usbank.paypros.dev.messaging.cases.management" />
+      <recent name="com.usbank.payments.genai.hackathon.paypros.messaging.cases" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.usbank.paypros.dev.messaging.cases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BackendAPPDev">
+    <configuration name="BackendAPPDev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.usbank.paypros.dev.BackendAPPDev" />
+      <module name="pay-pros-dev-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.usbank.paypros.dev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenAIBackendApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.usbank.payments.genai.hackathon.paypros.GenAIBackendApp" />
+      <module name="payments-genai-hackathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.usbank.payments.genai.hackathon.paypros.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PAYMENTS-GENAI-HACKATHON-PAY-PROS-BACKEND" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PAYMENTS-GENAI-HACKATHON-PAY-PROS-BACKEND" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BackendAPPDev" />
+        <item itemvalue="Application.GenAIBackendApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d59a185f-ccb0-40ef-9695-874bfc8cff10" name="Changes" comment="" />
+      <created>1723394509667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723394509667</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/usbank/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
