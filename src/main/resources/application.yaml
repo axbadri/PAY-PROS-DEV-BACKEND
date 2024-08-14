@@ -1,0 +1,12 @@
+server:
+    servlet:
+        contextPath: /v1
+spring:
+    ai:
+        azure:
+            openai:
+                apiKey: 6d365284cc3e495d88bd5f36fc73e48f
+                endpoint: https://customerserviceopenai.openai.azure.com/
+                chat:
+                    options:
+                        deploymentName: PayProsOAIDeployment
