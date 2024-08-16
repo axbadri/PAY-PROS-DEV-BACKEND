@@ -1,0 +1,299 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PayPros CRM",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080/v1",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/cases{caseID}/evaluate": {
+      "put": {
+        "tags": [
+          "case-controller"
+        ],
+        "operationId": "evaluate",
+        "parameters": [
+          {
+            "name": "caseID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Case"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Case"
+                },
+                "examples": {
+                  "Case": {
+                    "description": "Case",
+                    "value": {
+                      "caseID": "92534270",
+                      "solicitorEmail": "barvind88@gmail.com",
+                      "subject": "Fw: Address change request",
+                      "createTS": "2024-08-15T14:41:01.042547100",
+                      "data": "DQpJIHdvdWxkIGxpa2UgdG8gY2hhbmdlIHRoZSBhZGRyZXNzIG9uIHRoZSBmaWxlIHRvIGJlbG93LiBNZXJjaGFudElEOiAgMDAxNDcyOTk5MzM1ODk3NDk3MQ0KDQpOZXcgQWRkcmVzcw0KPT09PT09PT09PT09PT09PQ0KMTUwIFcgTWFpbiBTdCwgQXB0IDI3MiwgV2F1a2VzaGEuIFdJIC0gNTMxODYuDQoNClRoYW5rcw0KQXJ2aW5kIEINCg==",
+                      "status": "FAILED",
+                      "summary": "The system change request cannot be processed as the solicitor does not have the necessary role to perform system changes.",
+                      "assignedTo": "Lee Chambers"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/chats": {
+      "post": {
+        "tags": [
+          "chats-controller"
+        ],
+        "operationId": "chat",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserPrompt"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AssistantPrompt"
+                },
+                "examples": {
+                  "AssistantPrompt": {
+                    "description": "AssistantPrompt",
+                    "value": {
+                      "message": "The role of the user axbadri@gmail.com is ANONYMOUS_USER. According to the provided context, only users with an ADMIN role can perform system changes, while users with an ANONYMOUS_USER role cannot perform any system changes."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users": {
+      "get": {
+        "tags": [
+          "user-controller"
+        ],
+        "operationId": "users",
+        "parameters": [
+          {
+            "name": "emailID",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                },
+                "examples": {
+                  "User": {
+                    "description": "User",
+                    "value": [
+                      {
+                        "id": "41497579",
+                        "name": "Arvind Badri",
+                        "emailID": "barvind88@gmail.com",
+                        "role": "ADMIN",
+                        "title": "Lab Director",
+                        "companyName": "United Diagnostics",
+                        "zipCode": "53186"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "tags": [
+          "status-controller"
+        ],
+        "operationId": "status",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cases": {
+      "get": {
+        "tags": [
+          "case-controller"
+        ],
+        "operationId": "cases",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Case"
+                },
+                "examples": {
+                  "Case": {
+                    "description": "Case",
+                    "value": [
+                      {
+                        "caseID": "92534270",
+                        "solicitorEmail": "barvind88@gmail.com",
+                        "subject": "Fw: Address change request",
+                        "createTS": "2024-08-15T14:41:01.042547100",
+                        "data": "DQpJIHdvdWxkIGxpa2UgdG8gY2hhbmdlIHRoZSBhZGRyZXNzIG9uIHRoZSBmaWxlIHRvIGJlbG93LiBNZXJjaGFudElEOiAgMDAxNDcyOTk5MzM1ODk3NDk3MQ0KDQpOZXcgQWRkcmVzcw0KPT09PT09PT09PT09PT09PQ0KMTUwIFcgTWFpbiBTdCwgQXB0IDI3MiwgV2F1a2VzaGEuIFdJIC0gNTMxODYuDQoNClRoYW5rcw0KQXJ2aW5kIEINCg==",
+                        "status": "FAILED",
+                        "summary": "The system change request cannot be processed as the solicitor does not have the necessary role to perform system changes.",
+                        "assignedTo": "Lee Chambers"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Case": {
+        "type": "object",
+        "properties": {
+          "caseID": {
+            "type": "string",
+            "example": "92534270"
+          },
+          "solicitorEmail": {
+            "type": "string",
+            "example": "barvind88@gmail.com"
+          },
+          "subject": {
+            "type": "string",
+            "example": "Fw: Address change request"
+          },
+          "createTS": {
+            "type": "string",
+            "example": "2024-08-15T14:41:01.042547100"
+          },
+          "data": {
+            "type": "string",
+            "example": "DQpJIHdvdWxkIGxpa2UgdG8gY2hhbmdlIHRoZSBhZGRyZXNzIG9uIHRoZSBmaWxlIHRvIGJlbG93LiBNZXJjaGFudElEOiAgMDAxNDcyOTk5MzM1ODk3NDk3MQ0KDQpOZXcgQWRkcmVzcw0KPT09PT09PT09PT09PT09PQ0KMTUwIFcgTWFpbiBTdCwgQXB0IDI3MiwgV2F1a2VzaGEuIFdJIC0gNTMxODYuDQoNClRoYW5rcw0KQXJ2aW5kIEINCg=="
+          },
+          "status": {
+            "type": "string",
+            "example": "ACKNOWLEDGED"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "assignedTo": {
+            "type": "string",
+            "example": "Lee Chambers"
+          }
+        }
+      },
+      "UserPrompt": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "example": "What is the role of the user axbadri@gmail.com"
+          }
+        }
+      },
+      "AssistantPrompt": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "emailID": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "ADMIN",
+              "USER",
+              "ANONYMOUS_USER"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "companyName": {
+            "type": "string"
+          },
+          "zipCode": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
