@@ -5,7 +5,7 @@ spring:
     ai:
         azure:
             openai:
-                apiKey: 6d365284cc3e495d88bd5f36fc73e48f
+                apiKey: ${OPEN_API_KEY}
                 endpoint: https://customerserviceopenai.openai.azure.com/
                 chat:
                     options:

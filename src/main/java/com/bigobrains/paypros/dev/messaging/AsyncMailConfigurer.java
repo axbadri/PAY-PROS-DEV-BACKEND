@@ -69,7 +69,7 @@ public class AsyncMailConfigurer {
         imapMailReceiver.setJavaMailAuthenticator(new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("genai.paypros@gmail.com", "nuqu tlaa rzcs ijjr");
+                return new PasswordAuthentication("genai.paypros@gmail.com", "");
             }
         });
         javaMailProperties.put("mail.imap.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
